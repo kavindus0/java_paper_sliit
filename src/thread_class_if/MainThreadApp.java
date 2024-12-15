@@ -20,9 +20,8 @@ public class MainThreadApp
         threadObj.join();
         //{After Above thread ran, below content running}
 
-        CalcSum black = new CalcSum();
-        CalcSum white = new CalcSum();
-//        nwclac.run();
+        calcsumObj01.start();
+        calcsumObj01.join();
 
 
 //        threadObj.setName("Thread from Countdown");
