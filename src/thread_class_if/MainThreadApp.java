@@ -11,6 +11,11 @@ public class MainThreadApp
 //        ncow.start();
 //      Use Thread Class instead of use Sub Class
         Thread threadObj = new Thread(new CountDown());
+        // Implement for Runnable
+        Thread calcsumObj01 = new Thread(new CalcSum());
+        Thread calcsumObj02 = new Thread(new CalcSum());
+        calcsumObj01.setName("White");
+        calcsumObj02.setName("Black");
 
 
 
