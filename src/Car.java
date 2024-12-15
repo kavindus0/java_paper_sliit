@@ -6,9 +6,6 @@ public class Car extends Item {
         super(description, itemNo, unitPrice);
         this.model = model;
         this.type = type;
-        this.itemNo = itemNo;
-        this.description = description;
-        this.unitPrice = unitPrice;
     }
 
     @Override
