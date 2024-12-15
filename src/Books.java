@@ -4,7 +4,6 @@ public class Books extends Item {
     private int pages;
 
 
-    }
 
     @Override
     public void Display() {
