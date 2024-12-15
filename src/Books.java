@@ -1,6 +1,6 @@
 public class Books extends Item {
     private String publisher;
-    private String category ;
+    private String category;
     private int pages;
 
     public Books(String description, int itemNo, int unitPrice, String category, int pages, String publisher) {
