@@ -3,7 +3,10 @@ public class Item {
     String description;
     int unitPrice;
 
-    public Item() {
+    public Item(String description, int itemNo, int unitPrice) {
+        this.description = description;
+        this.itemNo = itemNo;
+        this.unitPrice = unitPrice;
     }
 
     public void Display() {
