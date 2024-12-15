@@ -1,7 +1,7 @@
 public class Books extends Item {
-    String publisher;
-    String category ;
-    int pages;
+    private String publisher;
+    private String category ;
+    private int pages;
 
     public Books(
             String description,
