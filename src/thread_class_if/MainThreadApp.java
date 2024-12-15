@@ -16,6 +16,9 @@ public class MainThreadApp
         calcsumObj01.setName("White");
         calcsumObj02.setName("Black");
 
+        threadObj.start();
+        threadObj.join();
+        //{After Above thread ran, below content running}
 
         CalcSum black = new CalcSum();
         CalcSum white = new CalcSum();
