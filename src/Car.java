@@ -2,7 +2,8 @@ public class Car extends Item {
     private String model;
     private String type;
 
-    public Car(String model, String type,int itemNo, String description, int unitPrice) {
+    public Car(String description, int itemNo, int unitPrice, String model, String type) {
+        super(description, itemNo, unitPrice);
         this.model = model;
         this.type = type;
         this.itemNo = itemNo;
