@@ -3,14 +3,6 @@ public class Books extends Item {
     private String category ;
     private int pages;
 
-    public Books(
-            String description,
-            String publisher,
-            String category,
-            int itemNo,
-            int unitPrice,
-            int pages) {
-        super();
 
     }
 
