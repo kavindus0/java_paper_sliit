@@ -8,7 +8,7 @@ public class MainThreadApp
 //        ncow.start();
 //
 
-            ClacSum nwclac = new ClacSum();
+            CalcSum nwclac = new CalcSum();
             nwclac.run();
 
     }
