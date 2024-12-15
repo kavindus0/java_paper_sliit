@@ -1,0 +1,18 @@
+public class Car extends Item{
+    String model;
+    String type;
+
+    public Car(String model, String type,int itemNo, String description, int unitPrice) {
+
+
+    }
+
+    @Override
+    public void Display() {
+        System.out.println("Model: " + model);
+        System.out.println("type: " + model);
+        System.out.println("itemNo: " + model);
+        System.out.println("description: " + description);
+        System.out.println("unitprice: " + unitPrice);
+    }
+}
