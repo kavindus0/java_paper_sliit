@@ -1,6 +1,6 @@
 package thread_class_if;
 
-public class main
+public class MainThreadApp
 {
 
     public static void main(String[] args) {
