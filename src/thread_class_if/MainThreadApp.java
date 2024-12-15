@@ -5,9 +5,9 @@ public class MainThreadApp
 
     public static void main(String[] args) throws InterruptedException {
 
-      //  CountDown threadObj = new CountDown(); {
-        //  ThreadOBJ from Countdown is also valid but
-//      Use Thread Class instead of use Sub Class
+         //  CountDown threadObj = new CountDown(); {
+        // ThreadOBJ from Countdown is also valid but
+        //      Use Thread Class instead of use Sub Class
         Thread threadObj = new Thread(new CountDown());
 
         // Implement for Runnable must wrap in Thread class
