@@ -1,3 +1,5 @@
+package abstract_class_question;
+
 public class Books extends Item {
     private final String publisher;
     private final String category;

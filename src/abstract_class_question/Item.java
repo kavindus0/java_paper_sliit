@@ -1,3 +1,5 @@
+package abstract_class_question;
+
 public abstract class Item {
     private final int itemNo;
     private final String description;

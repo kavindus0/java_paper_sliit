@@ -1,3 +1,5 @@
+package abstract_class_question;
+
 public class Car extends Item {
     private final String model;
     private final String type;
