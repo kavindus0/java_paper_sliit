@@ -1,7 +1,7 @@
-public class Item {
-    int itemNo;
-    String description;
-    int unitPrice;
+public abstract class Item {
+    private int itemNo;
+    private String description;
+    private int unitPrice;
 
     public Item(String description, int itemNo, int unitPrice) {
         this.description = description;
