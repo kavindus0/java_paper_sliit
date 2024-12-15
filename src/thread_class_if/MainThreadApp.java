@@ -16,7 +16,12 @@ public class MainThreadApp
         CalcSum white = new CalcSum();
 //        nwclac.run();
 
-        threadObj.start();
+
+//        threadObj.setName("Thread from Countdown");
+//        threadObj.start();
+//        System.out.println(threadObj.getName());
+//       // black.run();
+        //white.run();
 
     }
 }
