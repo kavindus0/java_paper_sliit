@@ -12,10 +12,9 @@ public class MainApp {
         arrayList.add(book2);
 
         Car car1 = new Car("Red KZ-1222",001,4350000,"V8","SUV");
-        Car car2 = new Car("Blue VX-1992",002,2450000,"F9","SUV");
 
         arrayList.add(car1);
-        arrayList.add(car2);
+        arrayList.add(new Car("Blue VX-1992",002,2450000,"F9","SUV"));
 
         for (Item item : arrayList) {
         item.Display();
