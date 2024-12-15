@@ -1,7 +1,7 @@
 public abstract class Item {
-    private int itemNo;
-    private String description;
-    private int unitPrice;
+    private final int itemNo;
+    private final String description;
+    private final int unitPrice;
 
     public Item(String description, int itemNo, int unitPrice) {
         this.description = description;

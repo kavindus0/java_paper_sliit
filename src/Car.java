@@ -1,6 +1,6 @@
 public class Car extends Item {
-    private String model;
-    private String type;
+    private final String model;
+    private final String type;
 
     public Car(String description, int itemNo, int unitPrice, String model, String type) {
         super(description, itemNo, unitPrice);
