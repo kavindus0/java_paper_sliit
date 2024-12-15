@@ -10,6 +10,11 @@ public class MainThreadApp
         //  }
 //        ncow.start();
 //      Use Thread Class instead of use Sub Class
+        Thread threadObj = new Thread(new CountDown());
+
+
+
+
 
 
         CalcSum black = new CalcSum();
