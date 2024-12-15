@@ -18,6 +18,7 @@ public class MainApp {
 
         for (Item item : arrayList) {
         item.Display();
+            System.out.println("----------");
         }
 
     }
