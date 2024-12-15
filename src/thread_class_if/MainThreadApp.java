@@ -12,5 +12,7 @@ public class MainThreadApp
         CalcSum white = new CalcSum();
 //        nwclac.run();
 
+        threadObj.start();
+
     }
 }
