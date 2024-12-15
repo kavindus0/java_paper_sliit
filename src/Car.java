@@ -3,8 +3,11 @@ public class Car extends Item{
     String type;
 
     public Car(String model, String type,int itemNo, String description, int unitPrice) {
-
-
+        this.model = model;
+        this.type = type;
+        this.itemNo = itemNo;
+        this.description = description;
+        this.unitPrice = unitPrice;
     }
 
     @Override
