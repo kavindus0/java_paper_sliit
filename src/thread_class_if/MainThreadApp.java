@@ -23,12 +23,8 @@ public class MainThreadApp
         calcsumObj01.start();
         calcsumObj01.join();
 
-
-//        threadObj.setName("Thread from Countdown");
-//        threadObj.start();
-//        System.out.println(threadObj.getName());
-//       // black.run();
-        //white.run();
+        calcsumObj02.start();
+        //calcsumObj02.join();
 
     }
 }
