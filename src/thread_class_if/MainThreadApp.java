@@ -3,7 +3,7 @@ package thread_class_if;
 public class MainThreadApp
 {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
       //  CountDown threadObj = new CountDown(); {
         //  ThreadOBJ from Countdown is also valid but
