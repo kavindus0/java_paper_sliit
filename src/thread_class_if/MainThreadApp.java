@@ -7,7 +7,9 @@ public class MainThreadApp
 
         CountDown threadObj = new CountDown();
 //        ncow.start();
-//
+//      Use Thread Class instead of use Sub Class
+
+
         CalcSum black = new CalcSum();
         CalcSum white = new CalcSum();
 //        nwclac.run();
