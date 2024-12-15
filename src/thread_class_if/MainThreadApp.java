@@ -5,7 +5,9 @@ public class MainThreadApp
 
     public static void main(String[] args) {
 
-        CountDown threadObj = new CountDown();
+      //  CountDown threadObj = new CountDown(); {
+        //  ThreadnOBJ from Countdown
+        //  }
 //        ncow.start();
 //      Use Thread Class instead of use Sub Class
 
