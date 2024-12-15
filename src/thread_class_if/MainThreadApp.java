@@ -9,7 +9,8 @@ public class MainThreadApp
         //  ThreadOBJ from Countdown is also valid but
 //      Use Thread Class instead of use Sub Class
         Thread threadObj = new Thread(new CountDown());
-        // Implement for Runnable
+
+        // Implement for Runnable must wrap in Thread class
         Thread calcsumObj01 = new Thread(new CalcSum());
         Thread calcsumObj02 = new Thread(new CalcSum());
         calcsumObj01.setName("White");
