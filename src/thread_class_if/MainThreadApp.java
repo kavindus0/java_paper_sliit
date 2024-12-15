@@ -6,9 +6,7 @@ public class MainThreadApp
     public static void main(String[] args) {
 
       //  CountDown threadObj = new CountDown(); {
-        //  ThreadnOBJ from Countdown
-        //  }
-//        ncow.start();
+        //  ThreadOBJ from Countdown is also valid but
 //      Use Thread Class instead of use Sub Class
         Thread threadObj = new Thread(new CountDown());
         // Implement for Runnable
@@ -16,10 +14,6 @@ public class MainThreadApp
         Thread calcsumObj02 = new Thread(new CalcSum());
         calcsumObj01.setName("White");
         calcsumObj02.setName("Black");
-
-
-
-
 
 
         CalcSum black = new CalcSum();
