@@ -9,7 +9,7 @@ public class CalcSum implements Runnable {
             for (int i = 1; i <= 100000; i++) {
                 sum += i;
             }
-            System.out.println("Current Thread: "+ Thread.currentThread().getName() + " Sum: " + sum);
+            System.out.println("Current Thread: "+ Thread.currentThread().getName() + " \nSum: " + sum);
 
         }
 
