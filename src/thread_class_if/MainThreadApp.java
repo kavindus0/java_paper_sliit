@@ -7,9 +7,8 @@ public class MainThreadApp
 //        CountDown ncow = new CountDown();
 //        ncow.start();
 //
-
-            CalcSum nwclac = new CalcSum();
-            nwclac.run();
+        CalcSum nwclac = new CalcSum();
+        nwclac.run();
 
     }
 }
