@@ -5,7 +5,7 @@ public class ClacSum implements Runnable {
     @Override
     public void run() {
         synchronized (ClacSum.class) {
-            for (int i = 1; i <= 10000; i++) {
+            for (int i = 1; i <= 100000; i++) {
                 sum += i;
             }
             System.out.println(sum);
