@@ -17,5 +17,9 @@ public class MainApp {
         arrayList.add(car1);
         arrayList.add(car2);
 
+        for (Item item : arrayList) {
+        item.Display();
+        }
+
     }
 }
