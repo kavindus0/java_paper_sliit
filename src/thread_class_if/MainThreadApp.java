@@ -8,8 +8,9 @@ public class MainThreadApp
         CountDown threadObj = new CountDown();
 //        ncow.start();
 //
-        CalcSum nwclac = new CalcSum();
-        nwclac.run();
+        CalcSum black = new CalcSum();
+        CalcSum white = new CalcSum();
+//        nwclac.run();
 
     }
 }
