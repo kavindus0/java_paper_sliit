@@ -1,6 +1,6 @@
-public class Car extends Item{
-    String model;
-    String type;
+public class Car extends Item {
+    private String model;
+    private String type;
 
     public Car(String model, String type,int itemNo, String description, int unitPrice) {
         this.model = model;
