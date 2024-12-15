@@ -5,11 +5,10 @@ public class Item {
 
     public Item() {
     }
-    // Constructor Created
 
     public void Display() {
-        System.out.println(itemNo);
-        System.out.println(description);
-        System.out.println(unitPrice);
+        System.out.println(this.description);
+        System.out.println(this.itemNo);
+        System.out.println(this.unitPrice);
     }
 }
