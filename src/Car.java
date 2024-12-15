@@ -10,10 +10,8 @@ public class Car extends Item {
 
     @Override
     public void Display() {
-        System.out.println("Model: " + model);
-        System.out.println("type: " + model);
-        System.out.println("itemNo: " + model);
-        System.out.println("description: " + description);
-        System.out.println("unitprice: " + unitPrice);
+        super.Display();
+        System.out.println(this.model);
+        System.out.println(this.type);
     }
 }
